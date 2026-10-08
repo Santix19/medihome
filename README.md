@@ -10,9 +10,13 @@ Proyecto de clase: diagrama de clases UML (Visual Paradigm) y programa en Java d
 
 | Ruta | Descripción |
 |---|---|
-| `diagrama/MediHome.vpp` | Fuente del diagrama de clases (Visual Paradigm) |
-| `diagrama/MediHome.png` | Imagen del diagrama de clases |
-| `src/medihome/` | Código fuente en Java |
+| `MediHome.vpp` | Fuente del diagrama de clases (Visual Paradigm) |
+| `MediHome.png` | Imagen del diagrama de clases |
+| `*.java` | Código fuente en Java (paquete `medihome`, clase principal `Main`) |
+
+## Diagrama de clases
+
+![Diagrama de clases MediHome](MediHome.png)
 
 ## Modelo
 
@@ -32,7 +36,7 @@ Proyecto de clase: diagrama de clases UML (Visual Paradigm) y programa en Java d
 Requiere Java 11 o superior. Desde la carpeta raíz del repositorio:
 
 ```bash
-javac -d out src/medihome/*.java
+javac -d out *.java
 java -cp out medihome.Main
 ```
 
